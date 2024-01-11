@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671485059673",
+    "project_id": "crud-opr-on-user-admin-manager",
+    "storage_bucket": "crud-opr-on-user-admin-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671485059673:android:18e5698a9a6781a7bf4748",
+        "android_client_info": {
+          "package_name": "com.example.eziline_job_task_email_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEvE3oZicsvY0Eaj2B05PZqpm3rqtTACI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
