@@ -120,6 +120,7 @@ class _UserLoginState extends State<UserLogin> {
               ),
               TextButton(
                 onPressed: () async {
+                  //Navigator.push(context, MaterialPageRoute(builder: (context)=>UserCrud()));
                   if (_formKey.currentState!.validate()) {
                     // If the form is valid, save the form data
                     _formKey.currentState!.save();
@@ -128,6 +129,7 @@ class _UserLoginState extends State<UserLogin> {
                     String email = emailController.text.toString();
                     String password = passwordController.text.toString();
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>UserCrud()));
+
 
                     try {
                       await firebase_auth
@@ -138,6 +140,7 @@ class _UserLoginState extends State<UserLogin> {
                           _showAlertDialog('Status',
                               'Login Through  ${user_credential.user?.email}');
                           // Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginHomePhEm()));
+
                         }
                         print("object ${user_credential.user.toString()}");
                         print(
